@@ -1,0 +1,247 @@
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+    #section__top--header, #section__bottom--header {
+      width: 80%;
+      left: 10%;
+    }
+    
+    .lable__text {
+      width: 60%;
+      left: 40%;
+    }
+  
+    .Smith {
+      padding-left: 100px;
+    }
+  
+    .Writer, .Man {
+      padding-left: 100px;
+    }
+  
+    .part2 {
+      float: none;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #section__top--header, #section__bottom--header {
+      width: 90%;
+      left: 5%;
+    }
+  
+    .Jhone {
+      font-size: 4rem;
+    }
+  
+    .Smith, .Writer, .Man {
+      padding-left: 50px;
+    }
+  
+    .text {
+      margin-top: 100px;
+    }
+  
+    .JhoneSmith {
+      width: 30%;
+      left: 10%;
+    }
+  
+    .aboutMe {
+      width: 80%;
+      left: 10%;
+    }
+  
+    #lable__slider {
+      width: 70%;
+      left: 15%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .lable__menu {
+      left: 80%;
+    }
+  
+    .btn__menu {
+      width: 24px;
+    }
+  
+    .Jhone {
+      font-size: 3rem;
+    }
+  
+    .Smith {
+      font-size: 3rem;
+      padding-left: 80px;
+    }
+  
+    .Writer, .Man {
+      padding-left: 50px;
+    }
+  
+    #section__bottom--header {
+      top: 18%;
+    }
+  
+    #about__me {
+      height: auto;
+    }
+  
+    .JhoneSmith, .aboutMe {
+      width: 90%;
+      left: 5%;
+    }
+  
+    #lable__slider {
+      width: 90%;
+      left: 5%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hello {
+      font-size: 0.6em;
+    }
+  
+    .Jhone, .Smith {
+      font-size: 2rem;
+      padding-left: 20px;
+    }
+  
+    .Writer, .Man {
+      padding-left: 20px;
+      font-size: 0.8rem;
+    }
+  
+    #lable__new--cd .new__book {
+      font-size: 2rem;
+    }
+  
+    .lable__fourpart {
+      width: 100%;
+    }
+  
+    .part {
+      width: 90%;
+      margin: 10px auto;
+    }
+  
+    .lable__img--part img {
+      height: auto;
+    }
+  
+    #lable__counter {
+      height: auto;
+      margin-top: 5rem;
+    }
+  
+    .count1, .count2, .count3, .count4 {
+      width: 40%;
+      margin: 0 auto;
+      left: auto;
+      right: auto;
+      position: relative;
+      margin-top: 20px;
+    }
+  
+    .single__count--header, .single__count--text {
+      font-size: 1.5rem;
+    }
+  
+    #lable__qout .bgk__op--ground {
+      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .lable__slider {
+      width: 90%;
+    }
+  
+    .container__text--h4 h4 {
+      font-size: 2rem;
+    }
+  
+    .container__text--p p {
+      font-size: 1rem;
+    }
+  
+    .container__img--qout h4, .container__img--qout p {
+      font-size: 1rem;
+    }
+  
+    #lable__social .lable__all--social {
+      flex-direction: column;
+    }
+  
+    #lable__social .lable__follow, .lable__social--media, .share {
+      width: 100%;
+      padding-top: 20px;
+      font-size: 1.5rem;
+    }
+  
+    #lable__footer .part__part {
+      width: 80%;
+      margin: 20px auto;
+    }
+  
+    #input, #text {
+      width: 100%;
+    }
+  
+    .email {
+      margin-left: 0;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .Jhone, .Smith {
+      font-size: 1.5rem;
+      padding-left: 10px;
+    }
+  
+    .Writer, .Man {
+      padding-left: 10px;
+      font-size: 0.6rem;
+    }
+  
+    .btn {
+      font-size: 1rem;
+      padding: 5px 10px;
+    }
+  
+    .lable__price, .lable__title {
+      font-size: 1rem;
+    }
+  
+    .lable__stars {
+      font-size: 1rem;
+    }
+  
+    .single__count--header {
+      font-size: 1rem;
+    }
+  
+    .single__count--text {
+      font-size: 0.8rem;
+    }
+  
+    .container__text--h4 h4 {
+      font-size: 1.5rem;
+    }
+  
+    .container__text--p p {
+      font-size: 0.8rem;
+    }
+  
+    .container__img--qout h4, .container__img--qout p {
+      font-size: 0.8rem;
+    }
+  
+    .lable__follow, .lable__social--media, .share {
+      font-size: 1rem;
+    }
+  }
+  
